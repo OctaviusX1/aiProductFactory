@@ -1,4 +1,4 @@
-# OpenClaw Laser Core
+# OpenClaw LaserCore ai Product Factory
 
 This is a curated subset of the `agency-agents` archive for a smaller, safer OpenClaw setup.
 
