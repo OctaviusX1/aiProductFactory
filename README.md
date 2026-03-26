@@ -4,6 +4,27 @@ This is a curated subset of the `agency-agents` archive for a smaller, safer Ope
 
 It keeps the strongest general-purpose agents across your requested departments and excludes the noisier or riskier prompts that push public posting, payments, or heavy autonomous side effects.
 
+## Quick Install
+
+Clone the repo and register the core OpenClaw workspaces:
+
+```bash
+git clone https://github.com/OctaviusX1/aiProductFactory.git
+cd aiProductFactory
+
+for dir in "$PWD"/workspaces/core/*; do
+  id="$(basename "$dir")"
+  openclaw agents add "$id" --workspace "$dir" --non-interactive --json
+done
+
+openclaw agents list
+openclaw gateway restart
+```
+
+If you want the fully explicit beginner walkthrough, read:
+
+[`OPENCLAW_FOR_DUMMIES_SETUP.md`](OPENCLAW_FOR_DUMMIES_SETUP.md)
+
 ## Recommended Core Team
 
 ### Product Management
