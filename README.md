@@ -23,7 +23,7 @@ openclaw gateway restart
 
 If you want the fully explicit beginner walkthrough, read:
 
-[`OPENCLAW_FOR_DUMMIES_SETUP.md`](OPENCLAW_FOR_DUMMIES_SETUP.md)
+[`EASY_INSTALL_GUIDE.md`](EASY_INSTALL_GUIDE.md)
 
 ## Recommended Core Team
 
