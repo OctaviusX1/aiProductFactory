@@ -1,6 +1,6 @@
-# OpenClaw For Dummies: Step-By-Step Setup Guide
+# Step by Step Install Guide
 
-This guide shows exactly how to install the core agents from this repo into OpenClaw.
+This guide shows exactly how to install the core ai Product Factory agents from this repo into OpenClaw.
 
 Repo:
 
